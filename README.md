@@ -1,2 +1,1 @@
-# VisitingCard
-vcard
+This is my Visiting Card.
