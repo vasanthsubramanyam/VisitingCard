@@ -1,5 +1,267 @@
-<html>
-  <p>
-    This is a webpage for my Digital Visting Card.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasanth Subramanyam - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffffff;
+            margin: 20px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+            color: #1a202c;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 0.95rem;
+            color: #4a5568;
+            margin-bottom: 24px;
+        }
+        .contact-info a {
+            color: #2b6cb0;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+        .summary p {
+            margin: 0;
+            font-size: 1rem;
+            color: #4a5568;
+        }
+        .competencies-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+        }
+        .competencies-table th {
+            text-align: left;
+            padding: 8px 8px 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .competencies-table td {
+            padding: 8px 8px 8px 0;
+            vertical-align: top;
+            font-size: 0.95rem;
+            color: #4a5568;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+        }
+        .job-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .job-company {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .job-date {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #718096;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: #4a5568;
+        }
+        ul li {
+            margin-bottom: 6px;
+        }
+        .achievements-title {
+            font-weight: 600;
+            font-style: italic;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            color: #2d3748;
+        }
+        .education-item, .award-item, .certification-item {
+            margin-bottom: 8px;
+            color: #4a5568;
+        }
+        strong {
+            font-weight: 600;
+            color: #2d3748;
+        }
+        @media print {
+            body {
+                background-color: #fff;
+            }
+            .container {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dr. Vasanth Subramanyam</h1>
+        <div class="contact-info">
+            vasanth.subramanyamm@gmail.com | 
+            <a href="http://www.linkedin.com/in/vasanth-subramanyam" target="_blank">LinkedIn Profile</a> |
+            <a href="https://scholar.google.com/citations?user=8h9sH1UAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        </div>
+
+        <div class="section summary">
+            <h3 class="section-title">Executive Summary</h3>
+            <p>
+                Accomplished Strategy and R&D Leader with over 13 years of experience, currently spearheading global Business Excellence and Quality Strategy for Tata Steel across India, Europe, and Southeast Asia. Proven expertise in driving digital transformation, from developing patented, world-first AI and Computer Vision solutions to implementing large-scale Total Quality Management (TQM) frameworks. Adept at managing the full project lifecycle, delivering multi-crore business results, and mentoring senior leadership on technological and operational strategy.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Core Competencies</h3>
+            <table class="competencies-table">
+                <thead>
+                    <tr>
+                        <th>Technical Skills</th>
+                        <th>Leadership & Strategy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Artificial Intelligence & Machine Learning</td>
+                        <td>Digital Transformation Strategy</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Vision & Image Processing</td>
+                        <td>End-to-End Project Management</td>
+                    </tr>
+                    <tr>
+                        <td>IoT & Industry 4.0</td>
+                        <td>Innovation & IP Management</td>
+                    </tr>
+                    <tr>
+                        <td>Applied Research & Development</td>
+                        <td>Business Excellence (TBEM)</td>
+                    </tr>
+                    <tr>
+                        <td>Process Optimization & Automation</td>
+                        <td>Client Relationship Management</td>
+                    </tr>
+                    <tr>
+                        <td>Laser-Based Systems</td>
+                        <td>Total Quality Management (TQM)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Professional Experience</h3>
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-company"><strong>Tata Steel Ltd, Jamshedpur, India</strong></div>
+                    <div class="job-date">Jan 2009 – Present</div>
+                </div>
+                <div class="job-title">Head - Business Excellence, TEEP & Strategy | Oct 2024 – Present</div>
+                <ul>
+                    <li>Drive Business Excellence initiatives across global operations (India, UK, Netherlands, Thailand) using the Tata Business Excellence Model (TBEM).</li>
+                    <li>Lead educational excellence programs in schools within Tata Steel's operating locations.</li>
+                    <li>Spearhead the formulation and deployment of the corporate Quality Strategy across all geographies.</li>
+                </ul>
+                <div class="job-title">Principal Technologist / Senior Technologist / Researcher | Jan 2009 – Sep 2024</div>
+                <ul>
+                    <li>Led a team of researchers in the end-to-end development and commissioning of innovative imaging, AI, and laser-based automation solutions for the steel industry.</li>
+                    <li>Served as a reverse mentor to senior executives (VPs and President) on Digital Transformation, and consulted Tata Group companies on AI and Computer Vision projects.</li>
+                    <li>Managed the intellectual property lifecycle for all developed solutions, resulting in 10 granted Indian patents.</li>
+                </ul>
+                <div class="achievements-title">Key Achievements & Impact:</div>
+                <ul>
+                    <li><strong>Engineered a world-first, on-the-fly laser marking system</strong> for hot steel strips (800°C, 15 m/s), boosting product price premium by 15% and generating <strong>₹200 Crores in annual revenue</strong>. <em>(Patent Granted)</em></li>
+                    <li><strong>Developed an AI-powered image analytics solution</strong> for blast furnaces, increasing productivity and reducing downtime by 12%, resulting in annual savings of <strong>₹80 Crores per furnace</strong>. <em>(Patent Granted)</em></li>
+                    <li><strong>Invented an imaging-based asset tracking methodology</strong> for hot metal logistics, delivering a generic solution that created <strong>₹45 Crores in annual benefits</strong>. <em>(Two Patents Granted)</em></li>
+                    <li><strong>Implemented a Deep Learning imaging solution</strong> for real-time sizing of green pellets, cutting rejections and increasing productivity by 26% for an annual gain of <strong>₹24 Crores</strong>. <em>(Patent Granted)</em></li>
+                    <li><strong>Established an automated surface inspection system</strong> to detect fine scratches, reducing customer rejections by 13% and ensuring premium product quality. <em>(Patent Granted)</em></li>
+                </ul>
+            </div>
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-company"><strong>General Monitors Systems Asia (Pte) Ltd, Singapore</strong></div>
+                    <div class="job-date">Aug 2007 – Oct 2008</div>
+                </div>
+                <div class="job-title">Application Software Engineer</div>
+                <ul>
+                    <li>Developed 'Hazardwatch2,' a generic safety instrumentation product for oil and gas industries, dramatically reducing system development time from 6 weeks to 1 week.</li>
+                    <li>Contributed to a <strong>$48 million annual turnover increase</strong> through successful product launch, customization, and deployment for global clients (Kuwait, Indonesia, Algeria).</li>
+                    <li>Managed product development for the Asian market, collaborating with US counterparts and overseeing on-site and off-shore commissioning.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3 class="section-title">Education</h3>
+            <div class="education-item"><strong>PhD, Image Processing</strong> | National Institute of Technology (NIT), Jamshedpur, India</div>
+            <div class="education-item"><strong>Post Graduate Certificate, Business Management (PGCBM)</strong> | Xavier Labor Relations Institute (XLRI), Jamshedpur, India</div>
+            <div class="education-item"><strong>M.Eng by Research, Artificial Intelligence</strong> | National University of Singapore, Singapore</div>
+            <div class="education-item"><strong>B.E., Instrumentation & Control</strong> | Anna University, Chennai, India</div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Awards & Recognition</h3>
+            <div class="award-item"><strong>Indian Society for Quality (ISQ) Innovation Award</strong> (2021) - Top innovation among 2250 projects nationally.</div>
+            <div class="award-item"><strong>All India Management Association (AIMA) Best Innovation Award</strong> (2021).</div>
+            <div class="award-item"><strong>Two Tata Innovista Awards</strong> (2019) - For development of groundbreaking solutions within the Tata Group.</div>
+            <div class="award-item"><strong>Role Model Partner for Innovation</strong> - Awarded by Tata Innoverse.</div>
+            <div class="award-item"><strong>Best Professional of the Year</strong> (2009) - Automation Division, Tata Steel.</div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Certifications</h3>
+            <div class="certification-item">Certified Gold Assessor for Tata Business Excellence Management (TBEM)</div>
+            <div class="certification-item">Certified Lead Auditor - ISO 9001:2015</div>
+            <div class="certification-item">Certified in Machine Learning by Stanford University (Coursera)</div>
+            <div class="certification-item">Certified in Machine Vision and Robotics Application by IIT, Kharagpur</div>
+        </div>
+    </div>
+</body>
 </html>
